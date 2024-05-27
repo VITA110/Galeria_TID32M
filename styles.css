@@ -1,5 +1,5 @@
 body{
-    background-color: darkgrey;
+    background-color: #e5f6d3;
 }
 
 *{
@@ -9,7 +9,8 @@ body{
 }
 
 .titulo{
-    background-color: aqua;
+    background-color: rgb(214, 232, 214);
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 .titulo h1{
@@ -24,23 +25,25 @@ body{
 
 .intro{
     display: flex;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 .text1{
-    border: 1px solid black;
     width: 50%;
     height: 50%;
 }
 
 .imagenT{
     display: flex;
-    border: 1px solid black;
     width: 50%;
     flex-wrap: wrap;
 }
 
+.imagenT img{
+    border-radius: 10%;
+}
+
 .container{
-    border: 1px solid black;
     display: flex;
     margin: 25px;
     flex-wrap: wrap;
@@ -56,29 +59,31 @@ body{
 .column1 img{
     filter: grayscale();
     margin: 5px;
-
     transition: transform 0.5s ease-out;
-    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
 }
 
 .column1 img:hover{
     transform: scale(1.1);
-  transition: transform 1s ease-out;
-  filter: grayscale(0%);
+    transition: transform 1s ease-out;
+     filter: grayscale(0%);
+     border-radius: 50%;
 }
 
 .column2 img{
     margin: 5px;
     filter: grayscale();
     transition: transform 0.5s ease-out;
-    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
 }
 
 .column2 img:hover{
     transform: scale(1.1); /* Aumentar el tamaño al 110% */
     transition: transform 0.5s ease;
-    filter: grayscale(0%);
-    
+    filter: grayscale(0%);    
+    border-radius: 50%;
 }
 
 .column2{
@@ -95,6 +100,11 @@ body{
     align-items: center;
     margin: 0 auto;
     background-color: dimgray;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 9px;
+    border-radius: 5%;
+    background-color: rgb(158, 160, 158);
+    transition: transform 0.5s ease-out;
 }
 
 .fotoAutor{
@@ -103,11 +113,16 @@ body{
 
 .fotoAutor img{
     border-radius: 55%;
+    
+}
+
+.autor:hover{
+    transform: scale(1.1); /* Aumentar el tamaño al 110% */
+    transition: transform 0.5s ease;
 }
 
 .textAutor p{
     text-align: center;
-    border: 2px solid black;
     height: 90px;
 }
 
@@ -116,6 +131,23 @@ body{
     font-size: 19px;
 }
 
+.barrita{
+    display: flex;
 
+}
 
+.barrita a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    display: flex;
+
+}
+
+.ayuda{
+    display: flex;
+    margin-left: auto;
+}
 
