@@ -45,15 +45,18 @@ body{
 
 .container{
     display: flex;
-    margin: 25px;
+    flex-direction: column;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: center;
+    width: 150vh;
 }
 
 .column1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+   
 }
 
 .column1 img{
