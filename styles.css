@@ -5,7 +5,7 @@ body{
 *{
     padding: 1px;
     margin: 1px;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .titulo{
@@ -40,7 +40,7 @@ body{
 }
 
 .imagenT img{
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .container{
@@ -61,14 +61,14 @@ body{
     margin: 5px;
     transition: transform 0.5s ease-out;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 .column1 img:hover{
     transform: scale(1.1);
     transition: transform 1s ease-out;
      filter: grayscale(0%);
-     border-radius: 50%;
+     border-radius: 25px;
 }
 
 .column2 img{
@@ -76,14 +76,14 @@ body{
     filter: grayscale();
     transition: transform 0.5s ease-out;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 .column2 img:hover{
-    transform: scale(1.1); /* Aumentar el tamaño al 110% */
+    transform: scale(1.1); 
     transition: transform 0.5s ease;
     filter: grayscale(0%);    
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 .column2{
@@ -117,7 +117,7 @@ body{
 }
 
 .autor:hover{
-    transform: scale(1.1); /* Aumentar el tamaño al 110% */
+    transform: scale(1.1); 
     transition: transform 0.5s ease;
 }
 
